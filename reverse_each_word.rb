@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-  string.map{|w|w.reverse}.join" "
+  string.split.map{|w|w.reverse}.join" "
 
 
 end 
